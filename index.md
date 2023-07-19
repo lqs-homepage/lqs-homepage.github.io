@@ -16,7 +16,7 @@ I am currently a postdoctoral fellow in the Department of Computer Science and T
 
 {% include_relative _includes/funding.md %}
 
-{% include_relative _includes/talks.md %}
+<!-- {% include_relative _includes/talks.md %} -->
 
 {% include_relative _includes/services.md %}
 
