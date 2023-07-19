@@ -10,14 +10,11 @@ main:
   - title: "Talks"
     url: ./#invited-talks
 
-  - title: "Teaching"
-    url: ./#teaching
+  - title: "Funding"
+    url: ./#funding
 
   - title: "Publications"
     url: ./#publications
-
-  - title: "News"
-    url: ./#news
 
   - title: "Bio"
     url: ./#about-me
