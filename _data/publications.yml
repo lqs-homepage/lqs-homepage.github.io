@@ -2,11 +2,11 @@ main:
 
   - title: Adding 3D Geometry Control to Diffusion Models
     authors: Wufei Ma*, Qihao Liu*, Jiahao Wang*, Angtian Wang, <strong>Yaoyao Liu<sup>#</sup></strong>, Adam Kortylewski, Alan Yuille (<sup>#</sup>Corresponding author)
-    conference_short: Preprint
-    conference: Under review.
-    pdf: https://arxiv.org/pdf/2306.08103.pdf
-    bibtex: https://bib.yliu.me/arXiv23_1.txt
-    image: https://img.yliu.me/teaser/dst.png
+    conference_short: DAC
+    conference: Design Automation Conference 2023.
+    # pdf: https://arxiv.org/pdf/2306.08103.pdf
+    # bibtex: https://bib.yliu.me/arXiv23_1.txt
+    image: ./assets/img/dac23.png
 
   - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
     authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
