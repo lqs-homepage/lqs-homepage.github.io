@@ -3,10 +3,75 @@ main:
   - title: Privacy-Preserving DNN Training with Prefetched Meta-Keys on Heterogeneous Neural Network Accelerators
     authors: <strong>Qiushi Li</strong>, Ju Ren, Yan Zhang, Chengru Song, Yiqiao Liao, Yaoxue Zhang
     conference_short: DAC
-    conference: Design Automation Conference 2023.
+    conference: IEEE/ACM Design Automation Conference (DAC) 2023.
     # pdf: https://arxiv.org/pdf/2306.08103.pdf
     # bibtex: https://bib.yliu.me/arXiv23_1.txt
+    link: https://liqiushi.fyi/
     image: ./assets/img/dac23.png
+    notes: Oral
+
+  - title: "ENIGMA: Low-Latency and Privacy-Preserving Edge Inference on Heterogeneous Neural Network Accelerators"
+    authors: <strong>Qiushi Li</strong>, Ju Ren, Xinglin Pan, Yuezhi Zhou, Yaoxue Zhang
+    conference_short: ICDCS
+    conference: IEEE International Conference on Distributed Computing Systems (ICDCS) 2022.
+    # pdf: https://arxiv.org/pdf/2306.08103.pdf
+    # bibtex: https://bib.yliu.me/arXiv23_1.txt
+    link: https://ieeexplore.ieee.org/document/9912194
+    image: ./assets/img/icdcs2022.png
+    notes: Oral
+
+  - title: Privacy-Preserving DNN Model Authorization against Model Theft and Feature Leakage
+    authors: <strong>Qiushi Li</strong>, Ju Ren, Yuezhi Zhou, Yaoxue Zhang
+    conference_short: ICC
+    conference: IEEE International Conference on Communications (ICC) 2022.
+    # pdf: https://arxiv.org/pdf/2306.08103.pdf
+    # bibtex: https://bib.yliu.me/arXiv23_1.txt
+    link: https://ieeexplore.ieee.org/abstract/document/9839218
+    image: ./assets/img/icc2022.png
+    notes: Oral
+
+  - title: "InvisibleFL: Federated Learning over Non-Informative Intermediate Updates against Multimedia Privacy Leakages"
+    authors: <strong>Qiushi Li</strong>, Wenwu Zhu, Chao Wu, Xinglin Pan, Fan Yang, Yuezhi Zhou, Yaoxue Zhang
+    conference_short: ACM MM
+    conference: ACM International Conference on Multimedia (ACM MM) 2020.
+    # pdf: https://arxiv.org/pdf/2306.08103.pdf
+    # bibtex: https://bib.yliu.me/arXiv23_1.txt
+    link: https://dl.acm.org/doi/abs/10.1145/3394171.3413923
+    image: ./assets/img/mm2020.png
+    notes: Oral
+
+  - title: Exploring Potential and Feasibility of Binary Code Sharing in Mobile Computing
+    authors: Chao Wu, Lan Zhang, Zhenhua Li, <strong>Qiushi Li</strong>, Yaoxue Zhang
+    conference_short: TCC
+    conference: IEEE Transactions on Cloud Computing (TCC).
+    # pdf: https://arxiv.org/pdf/2306.08103.pdf
+    # bibtex: https://bib.yliu.me/arXiv23_1.txt
+    link: https://ieeexplore.ieee.org/abstract/document/8784268
+    image: ./assets/img/tcc2019.png
+
+  - title: Accelerating Low-End Edge Computing with Cross-Kernel Functionality Abstraction
+    authors: Chao Wu, Yaoxue Zhang, Yuezhi Zhou, <strong>Qiushi Li</strong>
+    conference_short: ICA3PP
+    conference: International Conference on Algorithms and Architectures for Parallel Processing (ICA3PP).
+    # pdf: https://arxiv.org/pdf/2306.08103.pdf
+    # bibtex: https://bib.yliu.me/arXiv23_1.txt
+    link: https://link.springer.com/chapter/10.1007/978-3-030-05051-1_38
+    image: ./assets/img/ica3pp2018.png
+    notes: Best Paper Award
+
+  - title: Enabling Flexible Resource Allocation in Mobile Deep Learning Systems
+    authors: Chao Wu, Lan Zhang, <strong>Qiushi Li</strong>, Ziyan Fu, Wenwu Zhu, Yaoxue Zhang
+    conference_short: TPDS
+    conference: IEEE Transactions on Parallel and Distributed Systems (TPDS).
+    link: https://ieeexplore.ieee.org/abstract/document/8434315
+    image: ./assets/img/tpds2019.png
+
+  - title: Rethinking HTTP Adaptive Streaming with the Mobile User Perception
+    authors: Chao Wu, Wenwu Zhu, <strong>Qiushi Li</strong>, Yaoxue Zhang
+    conference_short: ACM MM
+    conference: ACM International Conference on Multimedia (ACM MM) 2017.
+    link: https://dl.acm.org/doi/abs/10.1145/3123266.3123357
+    image: ./assets/img/mm2017.png
 
   # - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
   #   authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)

@@ -16,6 +16,6 @@
     Outstanding Postgraduate of Beijing/北京市优秀毕业生, 2022
   </li>
   <li>
-    Best Paper Awards in ICA3PP, 2018
+    Best Paper Award in ICA3PP, 2018
   </li>
 </ul>
