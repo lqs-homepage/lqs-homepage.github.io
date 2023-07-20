@@ -22,7 +22,7 @@
 
     <base target="_blank" />
 
-    <link rel="canonical" href="{{site.canonical}}"/>
+    <link rel="canonical" href="{{ site.canonical }}"/>
     <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
     <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
@@ -62,7 +62,7 @@
     
     <div class="topnav">
 
-      <a href="{{ site.affiliation_link }}"><img width="100" src="{{ site.affiliation_logo }}"></a>
+      <a href="{{ site.affiliation_link }}"><img width="190" src="{{ site.affiliation_logo }}"></a>
 
       <div id="myLinks">
       {% include navigation.md %}
@@ -213,6 +213,17 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', '{{ site.google_analytics }}');
+    </script>
+    {% endif %}
+    {% if site.baidu_analytics %}
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?{{ site.baidu_analytics }}";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
     </script>
     {% endif %}
   </body>

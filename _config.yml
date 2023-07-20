@@ -4,6 +4,8 @@ position: Postdoctoral Fellow
 affiliation: Tsinghua University
 # affiliation_link: https://www.tsinghua.edu.cn/
 # affiliation_logo: ./assets/img/thu-name-crest-white.svg
+affiliation_link: https://www.tsinghua.edu.cn/
+affiliation_logo: ./assets/img/university-logo-small-horizontal-white-156eae9527.svg
 email: lqs (at) tsinghua.edu.cn
 
 # Search Engine Optimization (SEO)
@@ -38,6 +40,7 @@ footnote_link: https://github.com/yaoyao-liu/minimal-light
 # Otherwise, the analytics information of your website will be recorded to my ClustrMaps accounts.
 # clustrmaps_id: l3lesztPwCz-uXlzFI1Lt9SB3Ctz-pBQuMdYqnD0Ul8
 google_analytics: G-KRFENLZ8HT
+baidu_analytics: 8245df204873480e11096e38a723e550
 
 # The following files will be removed from the generated website.
 exclude:
