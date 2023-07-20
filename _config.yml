@@ -42,6 +42,8 @@ footnote_link: https://github.com/yaoyao-liu/minimal-light
 google_analytics: G-KRFENLZ8HT
 baidu_analytics: 8245df204873480e11096e38a723e550
 
+url: https://liqiushi.fyi
+
 # The following files will be removed from the generated website.
 exclude:
   - build.sh
