@@ -10,13 +10,9 @@ I am currently a postdoctoral fellow in the Department of Computer Science and T
 
 <strong style="color:#e74d3c; font-weight:600"><strong style="color:#e74d3c; font-weight:600">I am currently looking for faculty positions on the 2024 academic job market.</strong></strong>
 
-<!-- {% include_relative _includes/news.md %} -->
-
 {% include_relative _includes/publications.md %}
 
 {% include_relative _includes/funding.md %}
-
-<!-- {% include_relative _includes/talks.md %} -->
 
 {% include_relative _includes/services.md %}
 
