@@ -1,5 +1,5 @@
 User-agent: *
-Allow: index.html
+Allow: /
 Disallow: /assets/academicons/
 Disallow: /assets/css/
 Disallow: /assets/fonts/
