@@ -1,5 +1,15 @@
 main:
 
+  - title: You Can Use But Cannot Recognize: Preserving Visual Privacy in Deep Neural Networks
+    authors: <strong>Qiushi Li</strong>, Yan Zhang, Ju Ren, Qi Li, Yaoxue Zhang
+    conference_short: NDSS
+    conference: Network and Distributed System Security (NDSS) Symposium 2024.
+    # pdf: https://arxiv.org/pdf/2306.08103.pdf
+    # bibtex: https://bib.yliu.me/arXiv23_1.txt
+    link: https://liqiushi.fyi/
+    image: ./assets/img/ndss23.png
+    notes: Accepted with Shepherd
+
   - title: Privacy-Preserving DNN Training with Prefetched Meta-Keys on Heterogeneous Neural Network Accelerators
     authors: <strong>Qiushi Li</strong>, Ju Ren, Yan Zhang, Chengru Song, Yiqiao Liao, Yaoxue Zhang
     conference_short: DAC
