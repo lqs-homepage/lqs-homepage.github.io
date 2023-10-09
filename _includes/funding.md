@@ -7,6 +7,9 @@
     China National Postdoctoral Program for Innovative Talents/博士后创新人才支持计划(博新计划), 2023
   </li>
   <li>
+    ACM SIGBED China Doctoral Dissertation Award/ACM SIGBED China优秀博士论文奖, 2023
+  </li>
+  <li>
     The General Program of China Postdoctoral Science Foundation/中国博士后科学基金面上资助(第72批), 2022
   </li>
   <li>
