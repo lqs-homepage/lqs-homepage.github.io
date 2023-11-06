@@ -8,7 +8,7 @@ main:
     # bibtex: https://bib.yliu.me/arXiv23_1.txt
     link: https://liqiushi.fyi/
     image: ./assets/img/ndss24.png
-    notes: Accepted with Shepherd
+    # notes: Accepted with Shepherd
 
   - title: Privacy-Preserving DNN Training with Prefetched Meta-Keys on Heterogeneous Neural Network Accelerators
     authors: <strong>Qiushi Li</strong>, Ju Ren, Yan Zhang, Chengru Song, Yiqiao Liao, Yaoxue Zhang
