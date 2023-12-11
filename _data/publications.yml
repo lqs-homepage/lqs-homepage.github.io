@@ -16,7 +16,7 @@ main:
     conference: IEEE/ACM Design Automation Conference (DAC) 2023.
     # pdf: https://arxiv.org/pdf/2306.08103.pdf
     # bibtex: https://bib.yliu.me/arXiv23_1.txt
-    link: https://liqiushi.fyi/
+    link: https://ieeexplore.ieee.org/document/10247964/
     image: ./assets/img/dac23.png
     notes: Oral
 
