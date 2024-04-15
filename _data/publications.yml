@@ -6,7 +6,7 @@ main:
     conference: Network and Distributed System Security (NDSS) Symposium 2024.
     # pdf: https://arxiv.org/pdf/2306.08103.pdf
     # bibtex: https://bib.yliu.me/arXiv23_1.txt
-    link: https://liqiushi.fyi/
+    link: https://www.ndss-symposium.org/ndss-paper/you-can-use-but-cannot-recognize-preserving-visual-privacy-in-deep-neural-networks/
     image: ./assets/img/ndss24.png
     # notes: Accepted with Shepherd
 
