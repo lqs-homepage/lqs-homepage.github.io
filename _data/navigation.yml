@@ -1,17 +1,20 @@
 main:
 
+  - title: "Bio"
+    url: ./#about-me
+    right: true
+
   - title: "Contact"
-    url: ./#contact 
-    right: true 
-
-  - title: "Services"
-    url: ./#services
-
-  - title: "Funding / Awards"
-    url: ./#funding
+    url: ./#contact
 
   - title: "Publications"
     url: ./#publications
 
-  - title: "Bio"
-    url: ./#about-me
+  - title: "Grants"
+    url: ./#funding
+
+  - title: "Awards"
+    url: ./#awards
+
+  - title: "Services"
+    url: ./#services
