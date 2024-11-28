@@ -1,4 +1,4 @@
-<h1 id="funding"></h1>
+<h1 id="awards"></h1>
 
 <h2 style="margin: 40px 0px 10px;">Awards</h2>
 
