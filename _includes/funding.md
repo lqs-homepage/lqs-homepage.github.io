@@ -61,3 +61,4 @@
     <strong>[Industry]</strong> Key Member, Edge Intelligence Technology R&D in the Hotel and Travel Business, Tsinghua-Meituan Cooperation and Development Project (清华-美团技术合作开发项目)
   </li>
 </ul>
+
