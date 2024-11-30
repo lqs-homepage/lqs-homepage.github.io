@@ -37,7 +37,7 @@
     <strong>[CPSF]</strong> Principal Investigator, China National Postdoctoral Program for Innovative Talents (博士后创新人才支持计划, 博新计划)
   </li>
   <li>
-    <strong>[NSFC]</strong> Principal Investigator, China National Postdoctoral Program for Innovative Talents (国家自然科学基金青年科学基金项目)
+    <strong>[NSFC]</strong> Principal Investigator, The Young Scientists Fund of the National Natural Science Foundation of China (国家自然科学基金青年科学基金项目)
   </li>
   <li>
     <strong>[CPSF]</strong> Principal Investigator, The General Program of China Postdoctoral Science Foundation (中国博士后科学基金面上项目)
