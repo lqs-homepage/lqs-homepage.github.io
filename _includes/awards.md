@@ -10,7 +10,7 @@
     <strong>[2023]</strong> China Internet of Things Top-10 Science and Technology Progress Award (中国物联网十大科技进展奖)
   </li>  
   <li>
-    <strong>[2022]</strong> Outstanding Postgraduate of Beijing (北京市优秀毕业生)
+    <strong>[2022]</strong> Outstanding Graduate of Beijing (北京市优秀毕业生)
   </li>
   <li>
     <strong>[2020]</strong> Tsinghua Visiting Fund Grant to University of Waterloo 
