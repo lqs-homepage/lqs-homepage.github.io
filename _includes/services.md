@@ -16,10 +16,16 @@
     <strong>[Review]</strong> IEEE Transactions on Vehicular Technology (TVT)
   </li>
   <li>
-    <strong>[TPC]</strong> IEEE International Conference on Mobility, Sensing and Networking (IEEE MSN)
+    <strong>[Review]</strong> IEEE Internet of Things Journal (IoTJ)
   </li>
   <li>
-    <strong>[TPC]</strong> IFIP International Conference on Network and Parallel Computing (IFIP NPC)
+    <strong>[TPC]</strong> IEEE Global Communications Conference (GLOBECOM)
+  </li>
+  <li>
+    <strong>[TPC]</strong> IEEE International Conference on Mobility, Sensing and Networking (MSN)
+  </li>
+  <li>
+    <strong>[TPC]</strong> IFIP International Conference on Network and Parallel Computing (NPC)
   </li>
   <li>
     <strong>[TPC]</strong> IEEE/CIC International Conference on Communications in China (ICCC)
