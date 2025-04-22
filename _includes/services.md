@@ -4,6 +4,9 @@
 
 <ul style="margin:0 0 20px;">
   <li>
+    <strong>[Review]</strong> IEEE Transactions on Dependable and Secure Computing (TDSC)
+  </li>
+  <li>
     <strong>[Review]</strong> IEEE Transactions on Mobile Computing (TMC)
   </li>
   <li>
