@@ -1,0 +1,28 @@
+# jemdoc: menu{MENU}{index.html}, showsource
+= Qiushi Li
+
+~~~
+{}{raw}
+<div>
+        <img id="random-photo" src="photos/qiushi.jpg">
+</div>
+~~~
+
+\n
+
+
+I am an Associate Professor at the School of Software at Beihang University. Prior to that, I was a Postdoctoral Fellow at the Department of Computer Science and Technology at Tsinghua University. I also got my Ph.D. from the Department of Computer Science and Technology at Tsinghua University. I received my bachelor's degree from the University of Electronic Science and Technology of China.
+
+*Research Interests*: I have a broad interest in systems of artificial intelligence and machine learning, especially in security questions in data confidentiality, and also in applying the ideas of confidential or cryptographic computing to above AI/ML systems.
+
+*Some research that I am excited about*:
+- How to architect efficient AI/ML systems for direct ciphertext computation (what is cryptographic computing)?
+- How to adapt cryptographic computing to heterogeneous AI/ML hardware?
+- Are there definitive boundaries to data privacy and security in AI/ML?
+- How to enable controlled data sharing?
+
+== *Contact*
+*Mailto*: liqiushi@buaa.edu.cn\n
+Deprecated: {{<del>lqs@tsinghua.edu.cn</del>}} {{<del>lqs17@mails.tsinghua.edu.cn</del>}}
+
+

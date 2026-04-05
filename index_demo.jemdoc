@@ -1,0 +1,250 @@
+# jemdoc: menu{MENU}{index.html}, showsource, analytics{UA-31107207-1}
+= Lijie Chen 
+
+~~~
+{}{raw}
+<div>
+        <img id="random-photo" src="" alt="Random Photo">
+</div>
+
+<script>
+// Array of photo URLs
+const photos = [
+    'photos/lijie-3.jpg',
+    'photos/lijie-4.jpg',
+    'photos/lijie-5.jpg',
+];
+
+// Function to select a random photo
+function getRandomPhoto() {
+    const randomIndex = Math.floor(Math.random() * photos.length);
+    return photos[randomIndex];
+}
+
+// Set the random photo on page load
+window.onload = function() {
+    const photoElement = document.getElementById('random-photo');
+    photoElement.src = getRandomPhoto();
+};
+</script>
+~~~
+
+\n
+
+#In complexity theory, I am mostly excited by the following two fundamental questions: (1) Can we prove certain problems are inherently hard to compute? (e.g., is P equal to NP?) and (2) Is randomness inherently required for efficient computation? (is BPP equal to P?). For (1), I have proved several [https://eccc.weizmann.ac.il/report/2020/010/ state]-[https://eccc.weizmann.ac.il/report/2020/150/ of]-[https://eccc.weizmann.ac.il/report/2023/144/ the]-[https://eccc.weizmann.ac.il/report/2024/182/ art] lower bounds via connection to algorithms; For (2), I have proposed a [https://eccc.weizmann.ac.il/report/2023/094/ new framework] for studying [https://eccc.weizmann.ac.il/report/2021/080/ derandomization] that is inspired by ideas from cryptography, which also gives a [https://eccc.weizmann.ac.il/report/2023/076/ new algorithm] for finding canonical primes ([https://www.quantamagazine.org/how-to-build-a-big-prime-number-20230713/ quanta magazine]); see my [documents/RS.pdf research statement] for more detail on my research.
+
+#In particular, I am interested in classical and quantum computational complexity theory and their connections to other fields of computer science and quantum physics.
+
+I am an Assistant Professor at the Department of Electrical Engineering and Computer Sciences at UC Berkeley. I am honored to be part of Berkeley's [http://theory.cs.berkeley.edu/ Theory Group]. Prior to that, I was a Miller Research Fellow at UC Berkeley, hosted by [https://www.avishaytal.org/ Avishay Tal] and [https://people.eecs.berkeley.edu/~vazirani/ Umesh V. Vazirani]. I got my Ph.D. from MIT, and I was very fortunate to be advised by [https://people.csail.mit.edu/rrw/ Ryan Williams]. I received my bachelor's degree from the [http://iiis.tsinghua.edu.cn/en/yaoclass/ Institute for Interdisciplinary Information Sciences] at Tsinghua University.
+
+At Tsinghua University, I was advised by Prof. [http://iiis.tsinghua.edu.cn/~jianli/ Jian Li]. During the Spring of 2016, I was visiting MIT, working under the supervision of Prof. [https://www.scottaaronson.com/ Scott Aaronson]. [documents/CV.pdf \[CV\]]
+
+I am teaching [cs278-fall-2025/cs278-complexity.html CS 278: Computational Complexity Theory] this Fall!
+
+*Research Interests*: I have a broad interest in theoretical computer science, especially in fundamental questions in complexity theory, and also in applying the ideas of theoretical computer science to other scientific fields such as quantum physics and AI safety.\n
+
+*Some questions that I am excited about*:
+- How to make progress towards P vs. NP?
+- Is randomness inherently required for efficient computation? ([https://eccc.weizmann.ac.il/report/2023/094/ is BPP equal to P]?)
+- How does quantum complexity theory shed light on [https://arxiv.org/pdf/1612.05903 quantum] [https://arxiv.org/pdf/2411.04978 physics]?
+- How can we apply ideas from theoretical computer science to establish safety guarantees for AI systems?
+
+[https://twitter.com/wjmzbmr1 Twitter]
+
+*Note*: Click on {{<font color=red size=+0.5><b>}}\[summary\]{{</b></font>}} or {{<font color=red size=+0.5><b>}}\[highlight\]{{</b></font>}} to view summaries or highlight of the papers/projects!
+
+== *Video\/Slides\/Summary of Recent Work*
+
+- *Reverse mathematics of complexity lower bounds* [https://eccc.weizmann.ac.il/report/2024/060/ \[eccc\]] [https://www.dcs.warwick.ac.uk/~igorcarb/documents/slides/meta-mathematics-oberwolfach.ppsx \[Igor's slides\]] \n
+
+- *Symmetric Exponential Time Requires Near-Maximum Circuit Size* [https://eccc.weizmann.ac.il/report/2023/144/ \[eccc\]] [https://arxiv.org/abs/2309.12912 \[arxiv\]] [https://www.youtube.com/watch?v=uxyN2eVYKic \[Hanlin's talk at IAS\]] [slides/Sigma2-CKT-LOWB.pptx \[my slides\]]\n
+
+- *Weighted Pseudorandom Generators via Inverse Analysis of Random Walks and Shortcutting* [https://eccc.weizmann.ac.il/report/2023/114/ \[eccc\]] [https://www.ias.edu/video/weighted-pseudorandom-generators-inverse-analysis-random-walks-and-shortcutting \[William's talk at IAS\]]\n
+
+- *Polynomial-Time Pseudodeterministic Construction of Primes* [https://eccc.weizmann.ac.il/report/2023/076/ \[eccc\]] [slides/pseudodeterministic-construction.pptx \[my slides\]] [https://www.quantamagazine.org/how-to-build-a-big-prime-number-20230713/ \[Quanta Magazine\]]\n
+
+- *My Ph.D. thesis!* [documents/Lijie-Chen-thesis.pdf \[thesis\]]
+
+== *Workshops*
+
+- *Frontiers in Complexity Theory: A Graduate Workshop* organized by Roei Tell, Ryan Williams, and myself [http://dimacs.rutgers.edu/events/details?eID=2785 \[site with videos\]]
+
+- *FOCS23 workshop on explicit construction* organized by Igor C. Oliveira, Rahul Santhanam, and myself [https://sites.google.com/view/focs23-explicit-constructions/home \[site\]]
+
+- *FOCS22 workshop on derandomization* organized by Roei Tell and myself: [https://sites.google.com/view/newdirectionsinderand2022 \[site with videos\]]
+
+- *Recent Developments in Derandomization*, a two-part series presented together with Roei Tell at the [http://dimacs.rutgers.edu/events/details?eID=1083 DIMACS Workshop] on Meta-Complexity, Barriers, and Derandomization. [https://www.youtube.com/watch?v=H4VF7ttsyNA&t=2193s \[First talk by me\]] [https://www.youtube.com/watch?v=Nr5LcdLERkA \[Second talk by Roei\]]
+
+- *Derandomization and its connections throughout complexity theory*, a three-part series presented together with Roei Tell at IAS. [https://www.ias.edu/video/derandomization-and-its-connections-throughout-complexity-theory \[First talk by Roei\]] [https://www.ias.edu/video/derandomization-and-its-connections-throughout-complexity-theory-0 \[Second talk by me\]] [documents/notes-ias-CLW.pdf \[Notes on the second talk\]] [https://www.ias.edu/video/non-black-box-derandomization \[Third talk by Roei\]] {{<span class="title" onclick="toggle('derand-series')" style="cursor:pointer; u:hover">
+<font color=red>
+[summary]
+</font>
+</span><br>
+<span id="derand-series" style="display:none; border:1pt solid; padding: 5px; width:800px; background-color:lavender">
+The series is intended to survey the fast-paced recent developments in the study of derandomization. We will present:<br><br>
+1. A revised version of the classical hardness vs randomness framework, converting new types of uniform lower bounds into non-black-box derandomization algorithms.<br><br>
+2. Unconditional derandomization of an important class of Merlin-Arthur protocols, and stronger circuit lower bounds from derandomization.<br><br>
+3. Optimal derandomization algorithms that incur essentially no runtime overhead (a.k.a "free lunch derandomization").
+</span>}}
+
+== *Manuscripts*
+
+- *On the unprovability of circuit size bounds in intuitionistic S12* [https://arxiv.org/abs/2404.11841 \[arxiv\]]\n
+Lijie Chen, Jiatu Li, Igor C. Oliveira\n
+
+- *Holographic pseudoentanglement and the complexity of the AdS/CFT dictionary* [https://arxiv.org/pdf/2411.04978 \[arxiv\]] \n
+Chris Akers, Adam Bouland, Lijie Chen, Tamara Kohler, Tony Metger, Umesh Vazirani
+
+== *Selected Publications*
+
+=== *Derandomization*
+
+#- *When Arthur has Neither Random Coins nor Time to Spare: Superfast Derandomization of Proof Systems* [https://eccc.weizmann.ac.il/report/2022/057/ \[eccc\]] [https://drive.google.com/file/d/1R-4NO-yIMT_KBO5iel3LnTimnaQq6Eyt/view \[Roei's slides\]]\n
+
+#- *Unstructured Hardness to Average-Case Randomness* [https://eccc.weizmann.ac.il/report/2022/097/ \[eccc\]] [https://drive.google.com/file/d/1fOkEXCfZFgcwMUzFDX5-nE0TVezQBbZ8/view \[Roei's slides\]]\n
+# Lijie Chen, Ron D. Rothblum, Roei Tell /Foundations of Computer Science/ (FOCS 2022)\n
+
+- *Polynomial-Time Pseudodeterministic Construction of Primes* [https://eccc.weizmann.ac.il/report/2023/076/ \[eccc\]] [slides/pseudodeterministic-construction.pptx \[my slides\]] [https://www.quantamagazine.org/how-to-build-a-big-prime-number-20230713/ \[Quanta Magazine\]]\n
+Lijie Chen, Zhenjian Lu, Igor C. Oliveira, Hanlin Ren, Rahul Santhanam\n
+/Foundations of Computer Science/ (FOCS 2023)\n
+
+- *Derandomization vs Refutation: A Unified Framework for Characterizing Derandomization* [https://eccc.weizmann.ac.il/report/2023/105/ \[eccc\]]\n
+Lijie Chen, Roei Tell, Ryan Williams \n
+/Foundations of Computer Science/ (FOCS 2023)\n
+
+- *Hardness vs Randomness, Revised: Uniform, Non-Black-Box, and Instance-Wise* [https://eccc.weizmann.ac.il/report/2021/080/ \[eccc\]] [slides/nonbb-derand-final.pptx \[slides\] ] [https://www.youtube.com/watch?v=v4xMEKAS07A \[Roei's talk at TCS plus\]] [https://drive.google.com/file/d/1L2z3USxzrIVpJbfFI1EyuZtyQ2BmYJSF/view \[Roei's slides\]] {{<span class="title" onclick="toggle('nonbb-derand')" style="cursor:pointer; u:hover">
+<font color=red>
+[short summary]
+</font>
+</span><br>
+<span id="nonbb-derand" style="display:none; border:1pt solid; padding: 5px; width:800px; background-color:lavender">
+Textbook hardness-to-randomness converts circuit lower bounds into PRGs. But is this black-box approach really necessary for derandomization? In this new work we revamp the classical hardness-to-randomness framework, showing how to convert new types of <b>uniform lower bounds</b> into <b>non-black-box derandomization</b>, deducing conclusions such as promiseBPP = promiseP without PRGs. Moreover, we show that the same types of lower bounds are in fact <u>necessary</u> for any type of derandomization! This reveals a tight connection between any derandomization of promiseBPP (i.e., not necessarily a black-box one) and the foregoing new types of uniform lower bounds.
+<br><br>Our framework also allows a flexible trade-off between hardness and randomness. In an extreme setting, we show that plausible uniform lower bounds imply that "<b>randomness is indistinguishable from useless</b>". That is, every randomized algorithm can be derandomized with an arbitrarily small polynomial overhead, such that no polynomial-time algorithm can find a mistake with non-negligible probability.
+</span>}}
+Lijie Chen, [https://sites.google.com/site/roeitell/ Roei Tell]. /Foundations of Computer Science/ (FOCS 2021). {{<font color=red>}}Invited to the SICOMP Special Issue for FOCS 2021{{</font>}}\n
+
+- *Simple and fast derandomization from very hard functions: Eliminating randomness at almost no cost* [https://eccc.weizmann.ac.il/report/2020/148/ \[eccc\]] [http://www.wisdom.weizmann.ac.il/~oded/MC/294.html \[Oded's choice\]] [slides/optimalderand-2020-ICT-CAS.pptx \[slides by me\]] [documents/roei-slides-fast-derand.pdf \[slides by Roei\]] {{<span onclick="toggle('summary-fastderand-short-2')" style="cursor:pointer; u:hover; white-space:nowrap">
+<font color=red>
+[short highlight]
+</font>
+</span><br>
+<span id="summary-fastderand-short-2" style="display:none; border:1pt solid; padding: 5px; width:800px; background-color:lavender">
+<b> Derandomization with linear overhead: </b> Under plausible assumptions, we show that any $T$-time randomized computation can be derandomized in $T \cdot n$-time.
+<br><br><b> Conditional Optimality: </b> Assuming NSETH, the $n$ overhead above is optimal.
+</span> <span onclick="toggle('summary-fastderand-long-2')" style="cursor:pointer; u:hover; white-space:nowrap">
+<font color=red>
+[longer summary]
+</font>
+</span><br>
+<span id="summary-fastderand-long-2" style="display:none; border:1pt solid; padding: 5px; width:800px; background-color:lavender">
+<b> Derandomization with a near-linear overhead: </b> Assuming (1) one-way function exists and (2) generic $2^{kn}$-time computation cannot be speed up to $2^{(k-\varepsilon) n}$ time with $2^{(1-\varepsilon)n}$ bits of advice, we show that $T(n)$-time randomized computation can be derandomized in roughly $T(n) \cdot n^{1+\varepsilon}$ time. 
+<br><br><b> Optimality assuming NSETH: </b> Assuming Nondeterministic Strong Exponential Time Hypothesis (NSETH), the $n$ overhead is optimal (upto $n^{o(1)}$) for every reasonable time-bound $T(n)$. Indeed, we only need a weaker version claiming that $\#\mathsf{SAT}$ requires $2^{(1-o(1)) \cdot n}$ non-deterministic time (aka, $\#\mathsf{NSETH}$).
+<br><br><b> Average-Case Derandomization with basically no overhead </b> Assuming similar assumptions, we show that $T(n)$-time randomized computation can be derandomized in $T(n) \cdot n^{o(1)}$-time with respect to every $T(n)$-time samplable distribution $S$ (meaning, for $x \sim S$, the derandomization fails with $n^{-\omega(1)}$ probability).
+</span>}}
+Lijie Chen, [https://sites.google.com/site/roeitell/ Roei Tell]. /Symposium on the Theory of Computing/ (STOC 2021)\n
+
+=== *Circuit Lower Bounds from Algorithms*
+
+- *Symmetric Exponential Time Requires Near-Maximum Circuit Size* [https://eccc.weizmann.ac.il/report/2023/144/ \[eccc\]] [https://arxiv.org/abs/2309.12912 \[arxiv\]] [https://www.youtube.com/watch?v=uxyN2eVYKic \[Hanlin's talk at IAS\]] [slides/Sigma2-CKT-LOWB.pptx \[my slides\]]\n
+Lijie Chen, Shuichi Hirahara, Hanlin Ren\n
+/Symposium on the Theory of Computing/ (STOC 2024)\n
+
+- *Almost Everywhere Circuit Lower Bounds from Non-Trivial Derandomization* [https://eccc.weizmann.ac.il/report/2020/150/ \[eccc\]] [https://www.youtube.com/watch?v=vpyoZdv--nw&list=PL3DbynX8gwfJLYrm4EoZn6aK7IAACiTKa&index=6 \[video by Xin Lyu in FOCS 2020\]] [documents/Ryan-slides-ae-lowerbound.pdf \[slides by Ryan\]] {{<span class="title" onclick="toggle('summary-ae-lowb-2')" style="cursor:pointer; u:hover">
+<font color=red>
+[short highlight]
+</font>
+</span><br>
+<span id="summary-ae-lowb-2" style="display:none; border:1pt solid; padding: 5px; width:800px; background-color:lavender">
+(Among many other things), we show that there is a function $f \in \mathsf{E}^{\mathsf{NP}}$ such that $f_n$ ($f$ restricted to $n$-bit inputs) cannot be ($1/2 + 2^{-n^{\varepsilon}}$)-approximated by $2^{n^{\varepsilon}}$-size $\mathsf{ACC}^0$ circuits, for all sufficiently large input lengths $n$.
+<br><br>Our lower bounds come from a generic framework showing that non-trivial derandomization of a circuit class $\mathcal{C}$ implies $\mathsf{E}^{\mathsf{NP}}$ is almost-everywhere hard for $\mathcal{C}$.
+</span>}}
+Lijie Chen, Xin Lyu, [https://people.csail.mit.edu/rrw/ Ryan Williams]. /Foundations of Computer Science/ (FOCS 2020)\n
+
+- *Strong Average-Case Circuit Lower Bounds from Non-trivial Derandomization* [https://eccc.weizmann.ac.il/report/2020/010/ \[eccc\]] [slides/Simons-2018-THRTHR.pptx \[slides at Simons (for complexity theorist)\]] [slides/IAS_Talk.pptx \[slides at IAS (intense version)\]] [slides/Warwick_Talk.pptx \[slides at Warwick (lightweight version)\]] {{<span class="title" onclick="toggle('summary-avg-lowb')" style="cursor:pointer; u:hover">
+<font color=red>
+[short highlight]
+</font>
+</span><br>
+<span id="summary-avg-lowb" style="display:none; border:1pt solid; padding: 5px; width:800px; background-color:lavender">
+(Among many other things) we show that $\mathsf{NQP} = \mathsf{NTIME}[2^{\operatorname{polylog}(n)}]$ cannot be $(1/2 + 1/\operatorname{poly}(n))$-approximated by $\mathsf{ACC}^0$.
+<br><br>Our lower bounds come from a generic framework showing that certain non-trivial derandomization of a circuit class $\mathcal{C}$ implies $\mathsf{NQP}$ cannot be $(1/2 + 1/\operatorname{poly}(n))$-approximated by $\mathcal{C}$.
+</span>}}
+Lijie Chen, [https://hanlin-ren.github.io/ Hanlin Ren]. /Symposium on the Theory of Computing/ (STOC 2020). {{<font color=red>}}Invited to the SICOMP Special Issue for STOC 2020{{</font>}}\n
+[https://epubs.siam.org/doi/pdf/10.1137/20M1364886 \[SIAM Journal on Computing\]]
+
+# - *Non-deterministic Quasi-Polynomial Time is Average-case Hard for ACC Circuits* [Austin-NQP-Average-Case-Lower-Bound.pptx \[Talk at UT Austin's Theory Seminar\]] [https://eccc.weizmann.ac.il/report/2019/031/ \[eccc\]] [Che19-journal-version.pdf \[draft of journal version\]]\n
+# Lijie Chen. /Foundations of Computer Science/ (FOCS 2019). {{<font color=red>}}Invited to the SICOMP Special Issue for FOCS 2019{{</font>}}\n
+
+- *Efficient Construction of Rigid Matrices Using an NP Oracle* [documents/FOCS_2019_rigidmatrix.pdf \[pdf\]] [slides/FOCS_2019_rigidmatrix_slides.pptx \[slides\]] [http://www.wisdom.weizmann.ac.il/~oded/MC/281.html \[Oded's choice\]] {{<span class="title" onclick="toggle('summary-rigid-matrix')" style="cursor:pointer; u:hover">
+<font color=red>
+[short highlight]
+</font>
+</span><br>
+<span id="summary-rigid-matrix" style="display:none; border:1pt solid; padding: 5px; width:800px; background-color:lavender">
+Explicit construction of rigid matrices is a long-standing open question. We give a somewhat explicit ($\mathsf{P}^{\mathsf{NP}}$) construction of a familiy $\{H_n\}_{n \in \mathbb{N}}$ of $n \times n$ $\mathbb{F}_2$-matrices such that for infinitely many $n$, $H_n$ is $\Omega(n^2)$-far in Hamming distance to any $2^{(\log n)^{1/4-\varepsilon}}$-rank $\mathbb{F}_2$-matrices. 
+</span>}}
+[http://joshalman.com/ Josh Alman], Lijie Chen. /Foundations of Computer Science/ (FOCS 2019). {{<font color=red>}}Machtey Award for Best Student Paper. Invited to the SICOMP Special Issue for FOCS 2019{{</font>}}\n
+[https://epubs.siam.org/doi/pdf/10.1137/20M1322297?casa_token=_ac7zGqwKT0AAAAA:MsaUb2JbHOlNiZc7m9rwflkfCeiYuc5QMWbq2HNm8X8KD0UG5xq9tyXV7c-iy7OHYfWVEyVO2w \[SIAM Journal on Computing\]]\n
+
+=== *Hardness Magnification* (Strong Lower Bounds from Much Weaker Lower Bounds)
+
+- *Beyond Natural Proofs: Hardness Magnification and Locality* [https://eccc.weizmann.ac.il/report/2019/168/ \[eccc\]] [https://arxiv.org/abs/1911.08297 \[arxiv\]] [https://www.dcs.warwick.ac.uk/~igorcarb/documents/papers/magnification-note.pdf \[notes by Igor\]] {{<span class="title" onclick="toggle('summary-locality')" style="cursor:pointer; u:hover">
+<font color=red>
+[short highlight]
+</font>
+</span><br>
+<span id="summary-locality" style="display:none; border:1pt solid; padding: 5px; width:800px; background-color:lavender">
+The natural proof barrier does not seem to apply here since <b>Hardness Magnification</b> (HM) theorems only work for special functions. So one natural question stemmed from the hardness magnification phenomenon is to understand whether there is another inherent barrier, which prevents us from using current techniques to prove the lower bounds required by HM theorems.
+<br><br>We formulated a concrete barrier called <b>Locality Barrier</b>. Roughly speaking, the locality barrier says that if your lower bounds methods are robust enough to handle small-fan-in oracles, then it cannot be used to prove the lower bounds required by HM theorems. Unfortunately, it seems most lower bounds techniques we are aware of (random restrictions, approximation method, communication complexity based lower bounds, etc.) are subject to this barrier.
+</span>}}
+Lijie Chen, [https://researchmap.jp/shuichi.hirahara/ Shuichi Hirahara],[https://www.dcs.warwick.ac.uk/~igorcarb/ Igor Oliveira], [http://users.ox.ac.uk/~coml0742/ Jan Pich], [https://www.cs.ox.ac.uk/people/ninad.rajgopal/ Ninad Rajgopal], [https://www.cs.ox.ac.uk/people/rahul.santhanam/ Rahul Santhanam]. /Innovations in Theoretical Computer Science/ (ITCS 2020)\n
+[https://dl.acm.org/doi/abs/10.1145/3538391 \[Journal of the ACM\]]\n
+
+- *Hardness Magnification for all Sparse NP Languages* [https://eccc.weizmann.ac.il/report/2019/118/ \[eccc\]] \n
+Lijie Chen, [https://ce-jin.github.io/ Ce Jin], [https://people.csail.mit.edu/rrw/ Ryan Williams]. /Foundations of Computer Science/ (FOCS 2019)\n
+
+- *Bootstrapping Results for Threshold Circuits "Just Beyond" Known Lower Bounds* [https://eccc.weizmann.ac.il/report/2018/199/ \[eccc\]] [http://www.wisdom.weizmann.ac.il/~oded/MC/256.html \[Oded's choice\]] {{<span class="title" onclick="toggle('summary-bootstrapping')" style="cursor:pointer; u:hover">
+<font color=red>
+[short highlight]
+</font>
+</span><br>
+<span id="summary-bootstrapping" style="display:none; border:1pt solid; padding: 5px; width:800px; background-color:lavender">
+For some natural $\mathsf{NC}^1$-complete problem $P$, we show that (among many other things) if one can show $P$ requires depth-$d$ $\mathsf{TC}^{0}$ circuit of size (in term of wires) $n^{1+\exp(o(d))}$, then $\mathsf{NC}^1 \ne \mathsf{TC}^0$. Previous work implies that $P$ has no depth-$d$ $\mathsf{TC}^{0}$ of size $n^{1+c^{-d}}$, for some constant $c > 1$.
+</span>}}
+Lijie Chen, [https://sites.google.com/site/roeitell/ Roei Tell]. /Symposium on the Theory of Computing/ (STOC 2019). {{<font color=red>}}Danny Lewin Best Student Paper Award{{</font>}}\n 
+
+=== *Other Topics*
+
+- (Quantum Supremacy) *Complexity-Theoretic Foundations of Quantum Supremacy Experiments* [http://eccc.hpi-web.de/report/2016/200/ \[eccc\]] [https://arxiv.org/abs/1612.05903 \[arxiv\]] [documents/CCC_2017_QuantumSupremacy.pdf \[slides\]]\n
+[https://www.scottaaronson.com/ Scott Aaronson], Lijie Chen. /Computational Complexity Conference/ (CCC 2017). {{<font color=red>}}Invited to the Toc Special Issue for CCC 2017{{</font>}}\n
+
+- (Streaming Lower Bounds) *Almost Optimal Super-Constant-Pass Streaming Lower Bounds for Reachability* [https://eccc.weizmann.ac.il/report/2021/027/ \[eccc]]\n
+Lijie Chen, Gillat Kol, Dmitry Paramonov, Raghuvansh Saxena, Zhao Song, [https://www.cs.princeton.edu/~hy2/ Huacheng Yu]. /Symposium on the Theory of Computing/ (STOC 2021). {{<font color=red>}}Invited to the SICOMP Special Issue for STOC 2021{{</font>}}\n
+
+- (Fine-grained Complexity) *On The Hardness of Approximate and Exact (Bichromatic) Maximum Inner Product* [https://eccc.weizmann.ac.il/report/2018/026/ \[eccc\] ] [https://arxiv.org/abs/1802.02325 \[arxiv\]] [slides/CCC_2018_MaxIP.pptx \[slides\] ] [https://theoryofcomputing.org/articles/v016a004/ \[journal version\]] {{<span class="title" onclick="toggle('summary-maxip')" style="cursor:pointer; u:hover">
+<font color=red>
+[short highlight]
+</font>
+</span><br>
+<span id="summary-maxip" style="display:none; border:1pt solid; padding: 5px; width:800px; background-color:lavender">
+Under $\mathsf{SETH}$, we give a characterization on when approxiamte Boolean Max-IP is hard (w.r.t approxiamtion ratios and vector dimensions). We also show quadratic time hardness for Z-Max-IP with $2^{\log^*n}$ dimensions (Recall that $\log^* n$ is the number of logs it takes to reduce $n$ to at most $1$. It is an extremely slow-growing function.)
+<br><br>One notable corollary is that finding the furthest pair among $n$ points in $2^{\log^*n}$ dimension Euclidian space requires essentialy $n^2$ time under $\mathsf{SETH}$.
+</span>}}
+Lijie Chen. /Computational Complexity Conference/ (CCC 2018). {{<font color=red>}} Invited to the Toc Special Issue for CCC 2018{{</font>}}\n
+
+- (Differential Privacy) *On Distributed Differential Privacy and Counting Distinct Elements* [https://arxiv.org/abs/2009.09604 \[arxiv]] [slides/countDistinct-long.pptx \[long slides\]] [slides/countDistinct-short.pptx \[short slides\]] {{<span onclick="toggle('summary-dp-2')" style="cursor:pointer; u:hover; white-space:nowrap">
+<font color=red>
+[summary]
+</font>
+</span><br>
+<span id="summary-dp-2" style="display:none; border:1pt solid; padding: 5px; width:800px; background-color:lavender">
+<b> Problem: </b> We study the CountDisticnt problem where there are $n$ users each holding an element in a distributed setting, and the goal is to (approximately) count the total number of distinct elements.
+<br><br><b> Non-interactive Local Model: </b> We show that no (1) $(\ln n - 7 \ln\ln n, n^{-\omega(1)})$-DP Local protocol can solve CountDisticnt with error $n/(\ln n)^{\omega(1)}$ and (2) there is an $(\ln n)$-DP Local protocol solving CountDisticnt with error $\tilde{O}(\sqrt{n})$.
+<br><br><b> Shuffle Model: </b> We show that no (1) $(O(1), 2^{-\log^9 n})$-DP single-message shuffle protocol can solve CountDisticnt with error $n/(\ln n)^{\omega(1)}$ and (2) there is an $(O(1), 2^{-\log^9 n})$-DP shuffle protocol solving CountDisticnt with error $\tilde{O}(\sqrt{n})$, where each user sends at most $1$ messages in expectation.
+<br><br><b> Two-Party Model: </b> We also established an $\tilde{\Omega}(n)$ vs. $O(1)$ separation between error in two-party DP and global sensitivity, answering an open question of McGregor et al. (2011).
+<br><br><b> Dominated Protocols:</b> We also introduce a relaxation of local-DP protocols called dominated-protocols, and show that multi-message shuffle-DP protocols are dominated. By proving lower bounds against dominated protocols, we also prove lower bounds for selection and learning-parity against multi-message shuffle-DP protocols.
+<br><br><b> Moment Matching and Poissonization:</b> Inspired by the Poissonization and moment matching techniques in the context of property testing. Our lower bounds are proved by (1) constructing two hard distributions on datasets (2) expressing the histogram of applying any $(\ln n - 7 \ln\ln n, n^{-\omega(1)})$-DP on a distribution of datasets as a sum of many independent mixtures of multi-dimensional Poisson distributions. (3) Using the moment-matching technique to bound the statistical distance between two mixtures of multi-dimensional Poisson distributions.
+</span>}}
+Lijie Chen, [https://sites.google.com/view/badihghazi/home Badih Ghazi], [https://sites.google.com/site/ravik53/ Ravi Kumar], [https://pasin30055.github.io/ Pasin Manurangsi]. /Innovations in Theoretical Computer Science/ (ITCS 2021)\n
+
+== [papersYear.html *Full Publications*]\n
