@@ -6,6 +6,10 @@
 
 === *cryptographic computing*
 
+- *Nappa: NNA-Compatible and Privacy-Preserving DNN Training Framework via Vector Decomposition* \n
+Yan Zhang, Qiushi Li\*, Ju Ren, Yiqiao Liao, Jin Ouyang, Chengru Song, Honghuan Wu, Kaiqiao Zhan, Ben Wang, Xu Chen, Yaoxue Zhang\n
+/IEEE Transactions on Dependable and Secure Computing/ (TDSC)
+
 - *PeriNet: Periodic Deep Learning Framework for Modality-Agnostic Privacy Preserving* \n
 Yan Zhang, Yihong Song, Manzhou Li, Qiushi Li\*, Qi Li and Ju Ren\n
 /ACM on Web Conference/ (WWW)
@@ -23,6 +27,10 @@ Qiushi Li, Ju Ren, Yuezhi Zhou, Yaoxue Zhang\n
 /IEEE International Conference on Communications/ (ICC)
 
 === *security or privacy boundaries*
+
+- *User-Defined Visual Privacy Preserving via Vision–Language Region Anonymization* \n
+Yan Zhang, Junfeng Fang, Zhenya Ma, Manzhou Li, Qiushi Li\*, Ju Ren\n
+/IEEE International Conference on Multimedia and Expo/ (ICME)
 
 - *CSVAR: Enhancing Visual Privacy in Federated Learning via Adaptive Shuffling Against Overfitting* \n
 Ye Guo, Zhenya Ma, Yan Zhang, Donghua Cai, Qiushi Li\*, Yongheng Deng, Ye Zhang, Yaxi Liu, Boyang Zhou, Ju Ren, Xuemin Shen\n
