@@ -1,15 +1,14 @@
-.PHONY : update
-update :
-	@make -C www update
+PAGES = index papers grants
+HTML  = $(addsuffix .html, $(PAGES))
+CONF  = mysite.conf
+MENU  = MENU
 
-.PHONY : realupdate
-realupdate :
-	@make -C www realupdate
+.PHONY: all
+all: $(HTML)
 
-.PHONY : wwws
-docs :
-	@make -C www docs
+%.html: %.jemdoc $(CONF) $(MENU)
+	python3 ./jemdoc -c $(CONF) $<
 
-.PHONY : clean
-clean :
-	@make -C www clean
+.PHONY: clean
+clean:
+	rm -f $(HTML)
