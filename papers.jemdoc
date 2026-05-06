@@ -4,15 +4,15 @@
 == *Selected Publications*
 
 
-=== *cryptographic computing*
+=== *systems for efficiency and security*
+
+- *Mosaic: Cross-Modal Clustering for Efficient Video Understanding* [https://arxiv.org/abs/2604.10060 \[paper\]] \n
+Tuowei Wang, He Zhou, Chengru Song, Qiushi Li\*, Ju Ren\n
+/arXiv preprint/ (arXiv:2604.10060)
 
 - *Nappa: NNA-Compatible and Privacy-Preserving DNN Training Framework via Vector Decomposition* \n
 Yan Zhang, Qiushi Li\*, Ju Ren, Yiqiao Liao, Jin Ouyang, Chengru Song, Honghuan Wu, Kaiqiao Zhan, Ben Wang, Xu Chen, Yaoxue Zhang\n
 /IEEE Transactions on Dependable and Secure Computing/ (TDSC)
-
-- *PeriNet: Periodic Deep Learning Framework for Modality-Agnostic Privacy Preserving* \n
-Yan Zhang, Yihong Song, Manzhou Li, Qiushi Li\*, Qi Li and Ju Ren\n
-/ACM on Web Conference/ (WWW)
 
 - *Privacy-Preserving DNN Training with Prefetched Meta-Keys on Heterogeneous Neural Network Accelerators* [https://ieeexplore.ieee.org/document/10247964/ \[paper\]] \n
 Qiushi Li, Ju Ren, Yan Zhang, Chengru Song, Yiqiao Liao, Yaoxue Zhang\n
@@ -26,7 +26,7 @@ Qiushi Li, Ju Ren, Xinglin Pan, Yuezhi Zhou, Yaoxue Zhang\n
 Qiushi Li, Ju Ren, Yuezhi Zhou, Yaoxue Zhang\n
 /IEEE International Conference on Communications/ (ICC)
 
-=== *security or privacy boundaries*
+=== *privacy boundaries*
 
 - *User-Defined Visual Privacy Preserving via Vision–Language Region Anonymization* \n
 Yan Zhang, Junfeng Fang, Zhenya Ma, Manzhou Li, Qiushi Li\*, Ju Ren\n
@@ -35,6 +35,10 @@ Yan Zhang, Junfeng Fang, Zhenya Ma, Manzhou Li, Qiushi Li\*, Ju Ren\n
 - *CSVAR: Enhancing Visual Privacy in Federated Learning via Adaptive Shuffling Against Overfitting* \n
 Ye Guo, Zhenya Ma, Yan Zhang, Donghua Cai, Qiushi Li\*, Yongheng Deng, Ye Zhang, Yaxi Liu, Boyang Zhou, Ju Ren, Xuemin Shen\n
 /IEEE International Conference on Communications/ (ICC)
+
+- *PeriNet: Periodic Deep Learning Framework for Modality-Agnostic Privacy Preserving* \n
+Yan Zhang, Yihong Song, Manzhou Li, Qiushi Li\*, Qi Li and Ju Ren\n
+/ACM on Web Conference/ (WWW)
 
 - *You Can Use But Cannot Recognize: Preserving Visual Privacy in Deep Neural Networks* [https://www.ndss-symposium.org/ndss-paper/you-can-use-but-cannot-recognize-preserving-visual-privacy-in-deep-neural-networks/ \[paper\]] \n
 Qiushi Li, Yan Zhang, Ju Ren, Qi Li, Yaoxue Zhang\n

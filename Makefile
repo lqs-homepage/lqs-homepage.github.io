@@ -1,4 +1,4 @@
-PAGES = index papers grants
+PAGES = index papers grants services
 HTML  = $(addsuffix .html, $(PAGES))
 CONF  = mysite.conf
 MENU  = MENU
