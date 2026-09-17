@@ -6,6 +6,10 @@
 
 === *systems for efficiency and security*
 
+- *Manifold Projection: A Unified View to Break and Fix Weight Obfuscation in TEE-Shielded LLM Partition* \n
+Jingwen Huang, Qiushi Li, Yezheng Cheng, Ju Ren\n
+/IEEE Symposium on Security and Privacy/ (S&P 2027, to appear)
+
 - *Mosaic: Cross-Modal Clustering for Efficient Video Understanding* [https://arxiv.org/abs/2604.10060 \[paper\]] \n
 Tuowei Wang, He Zhou, Chengru Song, Qiushi Li\*, Ju Ren\n
 /arXiv preprint/ (arXiv:2604.10060)
@@ -47,20 +51,6 @@ Qiushi Li, Yan Zhang, Ju Ren, Qi Li, Yaoxue Zhang\n
 - *InvisibleFL: Federated Learning over Non-Informative Intermediate Updates against Multimedia Privacy Leakages* [https://dl.acm.org/doi/abs/10.1145/3394171.3413923 \[paper\]] \n
 Qiushi Li, Wenwu Zhu, Chao Wu, Xinglin Pan, Fan Yang, Yuezhi Zhou, Yaoxue Zhang\n
 /ACM International Conference on Multimedia/ (MM)
-
-=== *other topics*
-
-- *DualRec: A Collaborative Training Framework for Device and Cloud Recommendation Models* [https://ieeexplore.ieee.org/abstract/document/10840283/ \[paper\]] \n
-Ye Zhang, Yongheng Deng, Sheng Yue, Qiushi Li, Ju Ren\n
-/IEEE Transactions on Mobile Computing/ (TMC) 
-
-- *Confidential Federated Learning for Heterogeneous Platforms against Client-Side Privacy Leakages* [https://dl.acm.org/doi/abs/10.1145/3674399.3674484 \[paper\]] \n
-Qiushi Li, Yan Zhang\n
-/ACM Turing Award Celebration Conference - China/ (TURC) 
-
-- *Low-Frequency Oscillation Evaluation Modeling of Functional Brain Activity Potential* [https://ieeexplore.ieee.org/abstract/document/7589462/ \[paper\]] \n
-Yaoxian Li, Xin Dong, Qiushi Li\*, Ting Li\n
-/IEEE International Nanoelectronics Conference/ (INEC) 
 
 /\* co-first or corresponding author./\n
 For more publications, see [https://scholar.google.com/citations?user=qyaYAcsAAAAJ here].

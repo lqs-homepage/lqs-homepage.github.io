@@ -1554,6 +1554,7 @@ def procfile(f):
         ts = '%Y-%m-%d %H:%M:%S %Z'
       else:
         ts = '%Y-%m-%d'
+      ts = f.conf.get('dateformat', ts).strip()
       s = time.strftime(ts, time.localtime(time.time()))
       hb(f.outf, f.conf['lastupdated'], s)
     if showsourcelink:

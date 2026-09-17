@@ -6,7 +6,7 @@ MENU  = MENU
 .PHONY: all
 all: $(HTML)
 
-%.html: %.jemdoc $(CONF) $(MENU)
+%.html: %.jemdoc $(CONF) $(MENU) jemdoc
 	python3 ./jemdoc -c $(CONF) $<
 
 .PHONY: clean
