@@ -7,7 +7,7 @@
 === *systems for efficiency and security*
 
 - *Manifold Projection: A Unified View to Break and Fix Weight Obfuscation in TEE-Shielded LLM Partition* \n
-Jingwen Huang, Qiushi Li, Yezheng Cheng, Ju Ren\n
+Jingwen Huang, Qiushi Li\*, Yezheng Cheng, Ju Ren\n
 /IEEE Symposium on Security and Privacy/ (IEEE S&P, to appear)
 
 - *Nappa: NNA-Compatible and Privacy-Preserving DNN Training Framework via Vector Decomposition* [https://ieeexplore.ieee.org/document/11430615/ \[paper\]] \n
