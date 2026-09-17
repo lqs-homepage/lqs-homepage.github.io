@@ -4,7 +4,7 @@
 ~~~
 {}{raw}
 <div>
-        <img id="random-photo" src="photos/qiushi.jpg">
+        <img id="random-photo" src="photos/qiushi.jpg" width="265" height="371">
 </div>
 ~~~
 
@@ -15,7 +15,7 @@ I am an Associate Professor at the School of Software at Beihang University. Pri
 
 *Research Interests*: I have a broad interest in systems of artificial intelligence and machine learning, especially in their efficiency, security, privacy, and safety questions, including cryptographic computing for AI/ML systems and safe deployment of foundation models.
 
-*Some research that I am excited about*:
+*Questions I’m Exploring*:
 - How to architect efficient AI/ML systems for the workload demands of foundation models?
 - How can cryptographic computing scale efficiently to foundation-model AI/ML systems across heterogeneous hardware?
 - How can the safety and accountability of foundation models be ensured throughout their deployment?
@@ -25,5 +25,4 @@ I am an Associate Professor at the School of Software at Beihang University. Pri
 == *Contact*
 *Mailto*: liqiushi@buaa.edu.cn\n
 Deprecated: {{<del>lqs@tsinghua.edu.cn</del>}}, {{<del>lqs17@mails.tsinghua.edu.cn</del>}}
-
 
