@@ -8,13 +8,13 @@
 
 - *Manifold Projection: A Unified View to Break and Fix Weight Obfuscation in TEE-Shielded LLM Partition* \n
 Jingwen Huang, Qiushi Li, Yezheng Cheng, Ju Ren\n
-/IEEE Symposium on Security and Privacy/ (S&P 2027, to appear)
+/IEEE Symposium on Security and Privacy/ (IEEE S&P, to appear)
 
 - *Mosaic: Cross-Modal Clustering for Efficient Video Understanding* [https://arxiv.org/abs/2604.10060 \[paper\]] \n
 Tuowei Wang, He Zhou, Chengru Song, Qiushi Li\*, Ju Ren\n
 /arXiv preprint/ (arXiv:2604.10060)
 
-- *Nappa: NNA-Compatible and Privacy-Preserving DNN Training Framework via Vector Decomposition* \n
+- *Nappa: NNA-Compatible and Privacy-Preserving DNN Training Framework via Vector Decomposition* [https://ieeexplore.ieee.org/document/11430615/ \[paper\]] \n
 Yan Zhang, Qiushi Li\*, Ju Ren, Yiqiao Liao, Jin Ouyang, Chengru Song, Honghuan Wu, Kaiqiao Zhan, Ben Wang, Xu Chen, Yaoxue Zhang\n
 /IEEE Transactions on Dependable and Secure Computing/ (TDSC)
 
