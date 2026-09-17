@@ -10,10 +10,6 @@
 Jingwen Huang, Qiushi Li, Yezheng Cheng, Ju Ren\n
 /IEEE Symposium on Security and Privacy/ (IEEE S&P, to appear)
 
-- *Mosaic: Cross-Modal Clustering for Efficient Video Understanding* [https://arxiv.org/abs/2604.10060 \[paper\]] \n
-Tuowei Wang, He Zhou, Chengru Song, Qiushi Li\*, Ju Ren\n
-/arXiv preprint/ (arXiv:2604.10060)
-
 - *Nappa: NNA-Compatible and Privacy-Preserving DNN Training Framework via Vector Decomposition* [https://ieeexplore.ieee.org/document/11430615/ \[paper\]] \n
 Yan Zhang, Qiushi Li\*, Ju Ren, Yiqiao Liao, Jin Ouyang, Chengru Song, Honghuan Wu, Kaiqiao Zhan, Ben Wang, Xu Chen, Yaoxue Zhang\n
 /IEEE Transactions on Dependable and Secure Computing/ (TDSC)
@@ -36,11 +32,11 @@ Qiushi Li, Ju Ren, Yuezhi Zhou, Yaoxue Zhang\n
 Yan Zhang, Junfeng Fang, Zhenya Ma, Manzhou Li, Qiushi Li\*, Ju Ren\n
 /IEEE International Conference on Multimedia and Expo/ (ICME)
 
-- *CSVAR: Enhancing Visual Privacy in Federated Learning via Adaptive Shuffling Against Overfitting* \n
+- *CSVAR: Enhancing Visual Privacy in Federated Learning via Adaptive Shuffling Against Overfitting* [https://ieeexplore.ieee.org/abstract/document/11586909 \[paper\]] \n
 Ye Guo, Zhenya Ma, Yan Zhang, Donghua Cai, Qiushi Li\*, Yongheng Deng, Ye Zhang, Yaxi Liu, Boyang Zhou, Ju Ren, Xuemin Shen\n
 /IEEE International Conference on Communications/ (ICC)
 
-- *PeriNet: Periodic Deep Learning Framework for Modality-Agnostic Privacy Preserving* \n
+- *PeriNet: Periodic Deep Learning Framework for Modality-Agnostic Privacy Preserving* [https://dl.acm.org/doi/10.1145/3774904.3792649 \[paper\]] \n
 Yan Zhang, Yihong Song, Manzhou Li, Qiushi Li\*, Qi Li and Ju Ren\n
 /ACM on Web Conference/ (WWW)
 
